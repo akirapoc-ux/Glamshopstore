@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glam Shop Store</title>
+  <meta name="description" content="Glam Shop Store - Moda e beleza. Onde o glamour vira compra." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(180deg, #1a0b14, #000000);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: rgba(20, 5, 12, 0.9);
+      padding: 35px 28px;
+      border-radius: 24px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 40px rgba(212,175,55,0.35);
+      animation: fadeIn 1.5s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px);} 
+      to { opacity: 1; transform: translateY(0);} 
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 34px;
+      color: #f3c2d3;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+    }
+    .sublogo {
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+    .slogan {
+      font-size: 14px;
+      color: #f5dbe6;
+      margin-bottom: 22px;
+      font-style: italic;
+    }
+    .bio {
+      font-size: 14px;
+      color: #e5cfd9;
+      margin-bottom: 26px;
+      line-height: 1.6;
+    }
+    .link {
+      display: block;
+      text-decoration: none;
+      color: #3a0f23;
+      background: linear-gradient(90deg, #f3c2d3, #d4af37);
+      padding: 15px;
+      border-radius: 14px;
+      margin: 12px 0;
+      font-weight: 600;
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(212,175,55,0.35);
+    }
+    .link:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(212,175,55,0.6);
+    }
+    .footer {
+      margin-top: 22px;
+      font-size: 11px;
+      color: #caa9b7;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Glam Shop Store</div>
+    <div class="sublogo">GLAM • LUXO • FEMININO</div>
+    <div class="slogan">Onde o glamour vira compra</div><div class="bio">
+  💄 Moda & Beleza<br>
+  ✨ Glam luxo feminino jovem<br>
+  🔥 Achadinhos virais<br>
+  🛍️ Tendências, estilo e poder
+</div>
+
+<a class="link" href="https://onelink.shein.com/27/5eseu634cwnz,https://onelink.shein.com/27/5esevta1qjy1">🔥 Ofertas do Dia</a>
+<a class="link" href="#">💄 Beleza & Skincare</a>
+<a class="link" href="#">👠 Moda Feminina</a>
+<a class="link" href="#">✨ Achadinhos Virais</a>
+<a class="link" href="#">💎 Lançamentos</a>
+<a class="link" href="#">🛒 Compre com Desconto</a>
+
+<div class="footer">© Glam Shop Store — Onde o glamour vira compra</div>
+
+  </div>
+</body>
+</html>
